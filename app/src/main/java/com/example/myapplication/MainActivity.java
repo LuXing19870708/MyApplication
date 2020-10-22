@@ -10,9 +10,6 @@ import android.widget.TextView;
 import com.dave.androidlibrary.DaveTool;
 import com.dave.androidlibrary.Me;
 
-/**
- * 外部类可以访问内部类的private/protected变量
- */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     TextView textView;
