@@ -32,6 +32,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
 
+    /**
+     * @param
+     * @return
+     */
+    private int add(int x,int y){
+        return x + y;
+    }
 
     private void log(String s){
         Log.e("kssg",s);
