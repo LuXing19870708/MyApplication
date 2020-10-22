@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return x + y;
     }
 
+    //minus method is added by david
+    private int minus(int x,int y){
+        return x - y;
+    }
+
     private void log(String s){
         Log.e("kssg",s);
     }
